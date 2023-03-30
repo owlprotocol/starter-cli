@@ -1,0 +1,30 @@
+{
+  "name": "@owlprotocol/starter-cli",
+  "version": "0.1.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owlprotocol/starter-cli.git"
+  },
+  "homepage": "https://owlprotocol.xyz",
+  "copyright": "Copyright 2023 Owl Protocol",
+  "author": {
+    "name": "Leo Vigna",
+    "email": "leo.vigna@gmail.com",
+    "url": "https://github.com/owlprotocol"
+  },
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "^16.0.0"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.projects.json"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@owlprotocol/nft-sdk": "^1.2.4",
+    "@types/node": "16.11.26",
+    "typescript": "^4.9.5"
+  }
+}
