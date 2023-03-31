@@ -45,9 +45,23 @@ Run the `build` script to compile TypeScript files in the `projects` foldfer int
 pnpm run build
 ```
 
+### Run Ganache or configure the network you want to use
+
+Running Ganache locally is easy:
+```bash
+pnpm i -g ganache
+ganache --wallet.mnemonic '<MY MNEMONIC>'
+```
+
+This must match the `HD_WALLET_MNEMONIC` in the `.env.development` file.
+
 ## Generating a collection JSON Schema
 ```bash
 owl-cli generateJsonSchema collections.js --projectFolder=projects/<my-project>
 ```
+
+## Continue with our docs at: 
+
+[https://docs.owlprotocol.xyz/contracts](https://docs.owlprotocol.xyz/contracts)
 
 

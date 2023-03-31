@@ -3,7 +3,7 @@
   "deployments": {
     "ganache": {
       "root": {
-        "contractAddress": "0x29FC66767748838F008dADcaec390C3432ca6Bd7",
+        "contractAddress": "0xfa737b19Dc58b3604fbBBEBD2ACE599a00449D2f",
         "tokenId": 1
       },
       "children": {}

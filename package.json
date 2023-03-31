@@ -19,7 +19,8 @@
     "node": "^16.0.0"
   },
   "scripts": {
-    "build": "tsc --project tsconfig.projects.json"
+    "build": "tsc --project tsconfig.projects.json",
+    "build:watch": "tsc -w --project tsconfig.projects.json"
   },
   "keywords": [],
   "devDependencies": {

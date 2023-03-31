@@ -5,7 +5,7 @@
     "cfg": {
       "jsonSchemaIpfs": "QmXrpPT5KveNCcMHXdZiknnGiLbNveoccpD7FmagxgtQbj",
       "jsonSchemaEndpoint": "https://leovigna.mypinata.cloud/ipfs",
-      "apiEndpoint": "https://metadata.owlprotocol.xyz/metadata/getMetadata"
+      "sdkApiEndpoint": "https://metadata.owlprotocol.xyz/metadata/getMetadata"
     }
   }
 }
